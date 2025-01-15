@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+canvas { 
+  display: block;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  z-index: -1;
+}
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #fcfcfc;
+  color: #614a3f;
+  border: 1px solid #614a3f;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
